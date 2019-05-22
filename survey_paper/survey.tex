@@ -1,0 +1,106 @@
+\documentclass[sigconf]{acmart}   	% use "amsart" instead of "article" for AMSLaTeX format
+
+%
+% defining the \BibTeX command - from Oren Patashnik's original BibTeX documentation.
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08emT\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+
+%\usepackage{geometry}                		% See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   		% ... or a4paper or a5paper or ... 
+%\geometry{landscape}                		% Activate for rotated page geometry
+%\usepackage[parfill]{parskip}    		% Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}				% Use pdf, png, jpg, or eps§ with pdflatex; use eps in DVI mode
+								% TeX will automatically convert eps --> pdf in pdflatex		
+\usepackage{amssymb}
+
+%SetFonts
+
+%SetFonts
+
+\begin{document}
+
+\title{Survey : the trend of the Web-based Browser Fingerprinting in the last 5 years}
+\author{Hyunjoo Lee}
+\email{sn220865@kaist.ac.kr}
+%\date{}							% Activate to display a given date or no date
+
+\maketitle
+%\section{}
+%\subsection{}
+\section{Introduction}
+ In 2010, Eckerlsey \cite{eckersley2010unique} introduced browser fingerprinting which is stateless tracking technique. When users visit some browser, their device provides the information of the site they visited including a set of browser and system attributes such as operating system, settings, and the hardware details. The combination of this information is called browser fingerprinting, and it can be used to identify and track users. In 2018, Vastel \cite{vastel2018fp} introduced 4 distinct levels in which fingerprint inconsistencies are detected; OS-level, browser-level, device-level, and canvas-level. From this paper, we found that we can obtain the features of browser fingerprints from those four different levels. Based on this idea, we will implement various fingerprinters by using attributes divided into 4 distinct levels, and evaluate which level and which attributes are more efficient to identify users. In addition to evaluate general attributes of browser fingerprints, we also implement several fingerprinting technologies only for mobile devices recently discovered\cite{laperdrix2016beauty}. 
+ 
+ \section{Understanding Fingerprinting}
+  In 2010, Eckerlsey \cite{eckersley2010unique} introduced browser fingerprinting which is stateless tracking
+ \subsection{Identify the users with browser-based fingerprinting}
+Browser fingerprinting is 
+\subsection{Tracking by using the fingerprint}
+Browser fingerprinting is  
+
+\section{Analysis of fingerprinting}
+
+\subsection{client-side}
+This section will be written as following steps: 
+\subsubsection*{\bf Overall fingerprinting attributes}
+: "Host Fingerprinting and Traking web" literatures\cite{vastel2018fp, lim2016characterizing, miskovic2015appprint, bermejo2017steal, van2016accelerometer}.
+\subsubsection*{\bf Overall mobile and desktop fingerprinting attributes}
+ : " Beauty and the Beast"
+\subsubsection*{\bf Browser extension fingerprinting }
+: "XHOUND"
+\subsubsection*{\bf Effectiveness in Large scale }
+: "Hiding in the Crowd"
+ In 2010, Eckersley\cite{eckersley2010unique} 
+\subsubsection*{\bf Open problems}  
+open problems in here
+
+\subsection{server-side}
+by Vastel \textit{et al.} \cite{vastel2018fp}.
+This section will be written as following steps: 
+\subsubsection*{\bf Fingerprinting Ecosystem}
+ : "Cookieless-Monster"
+\subsubsection*{\bf Diversity of tracking techniques}
+ : " FP-Detective, The Web Never Forgets, Online tracking"
+\subsubsection*{\bf Open problems}  
+open problems in here
+
+\section{Advanced Techniques}
+
+\subsection{Uniqueness}
+In these days, mobile devices are becoming the main platform for browsing the web. Thus, many studies\cite{lim2016characterizing, miskovic2015appprint, bermejo2017steal, van2016accelerometer} which found new fingerprints from a mobile device with not only general fingerprinting attributes but also other factors to identify the user have emerged. In this section, we will introduce several fingerprinting attributes.
+\subsubsection*{\bf Cross browser fingerprinting}
+I"(Cross-) Browser fingerprinting via OS and Hardware Level"
+\subsubsection*{\bf Fingerprint Inconsistencies}   
+" FP-Scanner "
+volume\cite{miskovic2015appprint}.
+\subsubsection*{\bf Open problems}  
+open problems in here
+
+\subsection{Linkability}
+In these days, mobile devices are becoming the main platform for browsing the web. 
+\section{Linkability}
+"FP-Stalker"
+\newline{1) We collect the dataset from the web browser based on the previous literatures\cite{vastel2018fp, lim2016characterizing, miskovic2015appprint, bermejo2017steal, van2016accelerometer}.}
+\subsubsection*{\bf Open problems}  
+open problems in here
+
+\section{Defense Techniques}
+\subsubsection*{\bf Block fingerprinter}
+"PriVaricator(linkability)"
+\subsubsection*{\bf Blocking Tracker}   
+" Block me if you can "
+\subsubsection*{\bf Open problems}  
+open problems in here
+
+\section{GDPR's Web Privacy policy on Web Server}
+\subsubsection*{\bf GDPR clausis related in fingerprinting}
+introduce some statements related in fingerprinting in this part
+\subsubsection*{\bf Evaluation of policy if they are well adopted in real-world}   
+In real-world case in here
+\subsubsection*{\bf Open problems}  
+open problems in here "We Value Your Privacy"
+
+\section{Conclusion}
+This paper will indicate that which level and which attributes are the most efficient one that can identify user well. Also, we will focus on the mobile fingerprinting with diverse factors. Hence, we can indicate that which factor of the mobile fingerprinting attributes considering the-state-of-the-art technologies is the most efficient one on the mobile device. From this paper, we can evaluate the-state-of-the-art techniques compared to previous evaluated technologies. 
+
+ \bibliographystyle{ACM-Reference-Format}
+ \bibliography{proposal}
+\end{document}  
