@@ -1,5 +1,6 @@
 Beauty and the Beast : Diverting Modern Web Browsers to Build Unique Browser Fingerprints
-================================================================================Author :
+===============================================================================
+Author :
 <br>Conference / Year : 2016
 
 Summary>
