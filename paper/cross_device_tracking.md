@@ -1,7 +1,7 @@
 A Privacy Analysis of Cross-device Tracking
 ===========================================
 Author : Sebastian Zimmeck, Jie S. Li and Hyungtae Kim, Steven M. Bellovin and Tony Jebara
-Conference / year : USENIX 2017
+<br>Conference / year : USENIX 2017
 
 summary >
 ---------
