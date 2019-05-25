@@ -1,8 +1,7 @@
-
 XHOUND : Quantifying the fingerprintability of browser extensions 
 =================================================================
-author :Starov, Oleksii, and Nick Nikiforakis.
-conferende / year : S&P 2017
+Author :Starov, Oleksii, and Nick Nikiforakis.
+<br>Conferende / Year : S&P 2017
 
 summary>
 --------
@@ -19,4 +18,5 @@ cons>
 
 tag>
 ---
-analysis of client-side diversity, desktop and mobile
+* Analysis of client-side diversity
+* Desktop and Mobile
