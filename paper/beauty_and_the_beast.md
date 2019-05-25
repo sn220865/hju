@@ -5,11 +5,11 @@ Author :
 
 Summary>
 --------
-*Purpose :
-*Source:
-*How to:
-*Advantage:
-*Limitation :
+* Purpose :
+* Source:
+* How to:
+* Advantage:
+* Limitation :
 
 Pros> 
 -----
