@@ -18,6 +18,7 @@ Motivation >
 ------------
 Fingerprint evolution
 - cause : 1.automatic evolutions, 2.Context-dependent evolutions 3.User-triggered evolutions
+- frequency : 
 
 Citation >
 -----------
