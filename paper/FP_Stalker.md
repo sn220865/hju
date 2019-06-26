@@ -14,6 +14,11 @@ Method >
 - duration : 2 years
 - 다른 fingerprinting site와 비교해 볼때 다른점 : unique identifier를 얻어낼 수 있음
 
+Motivation >
+------------
+Fingerprint evolution
+- cause : 1.automatic evolutions, 2.Context-dependent evolutions 3.User-triggered evolutions
+
 Citation >
 -----------
 - Beauty and the Beast : Diverting Modern Web Browsers to Build Unique Browser Fingerprints (The authors in this paper conducted in 2016) : Eckersely의 논문을 증명함과 동시에 몇몇의 attribute들은 변했다는 것을 발견함
@@ -32,6 +37,7 @@ Related work / Reference >
 
 pros >
 ------
+-각 attribute들이 변해도 같은 browser로부터 온 애들을 잘 식별해서 link하려고 함. 그래서 각 attribute들이 얼마나 오래 stability한지 측정. -> 이러한 stability기준이 하나의 browser instance에 의한 것이므로 robustness에 대한 연구와 연관성이 존재. 여기서 측정한 table2의 result를 robustness의 background로 활용가능.
 
 cons >
 ------
